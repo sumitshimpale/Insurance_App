@@ -50,4 +50,4 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKER_USERNAME }}/insurance-backend:${{ github.sha }}
-            ${{ secrets.DOCKER_PASSWORD }}/insurance-backend:latest
+            ${{ secrets.DOCKER_USERNAME }}/insurance-backend:latest
