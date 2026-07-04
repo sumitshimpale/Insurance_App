@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: sachin820/frontend:V1
+        image: sumitdevops03/insurance-frontend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
